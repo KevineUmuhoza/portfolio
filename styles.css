@@ -50,9 +50,13 @@ table td,th{
 
 }
 
-
 img {
     border-radius: 15px;
     height: 500px;
     width: 330px;
+}
+.projects{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
