@@ -10,7 +10,7 @@ Simple personal porfolio landing page created with HTML and CSS.
 * open it in a browser
 
 ## Site
-
+https://github.com/KevineUmuhoza/portfolio/tree/gh-pages
 
 ## Technologies Used
 Poject is created with:
