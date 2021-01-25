@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="css/styles.css">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
+  
         <header>
-            <div class="logo">
-                <h1>Kevine</h1>
-            </div>
-                <div id="navbar">
+            
+                <div class="navbar">
                 <nav>
                     <ul>
                         <li><a href="#home">Home</a></li>
@@ -24,9 +24,16 @@
             </div>
         </header>
     </div>
+    <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="jumbotron"></div>
     <h1>Kevine Umuhoza</h1>
-    <img src="/home/kevine/Desktop/portfolio/pictures/Snapchat-1930312315.jpg">
+    <img src="pictures/Snapchat-1930312315.jpg" alt="kevine" class="center">
     <p>Hey, my name is Kevine Umuhoza. I'm a web developer.</p>
+    </div>
+    </div>
+</div>
     <div class="projects">
         <h2>Projects:</h2>
         <table>
@@ -76,12 +83,15 @@
         </table>
         
     </div>
-    <div class="about">
-        <h1>About Me</h1>
-        <h2>Background:</h2>
-        <ul>
-            <li><strong>Education</strong>: 
-                <ul>
+    <h1>About Me</h1>
+    <p>I decided to take a class on <em>programming</em> because I'm already a tech student,</p>
+    <p>so I wanted to improve my coding skills to be well prepared for my career. </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+            <div class="jumbotron">
+              <strong>Education</strong>: 
+                
                     <li>2016-Current: Bachelor’s degree in Information Technology in <span>University of Rwanda</span></li>
                     <li>2013-2015: High School Diploma in Mathematics-Computer Science-Economics in <span>Groupe Scolaire Notre Dame de Lourdes</span></li>
                 </ul>
@@ -89,14 +99,22 @@
             <li><strong>Job Experience</strong>: worked as a content developer for one year in a travel agency, dTravela Ltd</li>
         
         </ul>
-        <p>I decided to take a class on <em>programming</em> because I'm already a tech student, so I wanted to improve my coding skills to be well prepared for my career. </p>
-        <h2>Interests:</h2>
+        
+            </div>
+        </div>
+        <div class="col-md-3">
+        <strong>Interests:</strong>
         <ol>
             <li>Reading</li>
             <li>Writting</li>
             <li>Traveling</li>
         </ol>
-        <h2>Skills:</h2>
+        </div>
+
+        <div class="col-md-3">
+    
+
+        <strong>Skills:</strong>
         <ol>
             <li>Time management skills</li>
             <li>Communication skills</li>
@@ -106,8 +124,9 @@
             
         </ol>
     </div>
+</div>
 
-
+</div>
 
     
 </body>
